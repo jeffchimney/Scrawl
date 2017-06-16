@@ -17,7 +17,7 @@
 		BE43DCA61EF48042005470D1 /* ScrawlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE43DCA51EF48042005470D1 /* ScrawlTests.swift */; };
 		BE43DCB11EF48042005470D1 /* ScrawlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE43DCB01EF48042005470D1 /* ScrawlUITests.swift */; };
 		BE43DCC01EF484DC005470D1 /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE43DCBF1EF484DC005470D1 /* ProjectCell.swift */; };
-		BE43DCC21EF49ABD005470D1 /* CreatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE43DCC11EF49ABD005470D1 /* CreatorTableViewController.swift */; };
+		BE43DCC21EF49ABD005470D1 /* CreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE43DCC11EF49ABD005470D1 /* CreatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		BE43DCB01EF48042005470D1 /* ScrawlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrawlUITests.swift; sourceTree = "<group>"; };
 		BE43DCB21EF48042005470D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE43DCBF1EF484DC005470D1 /* ProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
-		BE43DCC11EF49ABD005470D1 /* CreatorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorTableViewController.swift; sourceTree = "<group>"; };
+		BE43DCC11EF49ABD005470D1 /* CreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				BE43DC991EF48042005470D1 /* LaunchScreen.storyboard */,
 				BE43DC9C1EF48042005470D1 /* Info.plist */,
 				BE43DC8D1EF48042005470D1 /* Scrawl.xcdatamodeld */,
-				BE43DCC11EF49ABD005470D1 /* CreatorTableViewController.swift */,
+				BE43DCC11EF49ABD005470D1 /* CreatorViewController.swift */,
 			);
 			path = Scrawl;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 				BE43DC8F1EF48042005470D1 /* Scrawl.xcdatamodeld in Sources */,
 				BE43DC911EF48042005470D1 /* MasterViewController.swift in Sources */,
 				BE43DCC01EF484DC005470D1 /* ProjectCell.swift in Sources */,
-				BE43DCC21EF49ABD005470D1 /* CreatorTableViewController.swift in Sources */,
+				BE43DCC21EF49ABD005470D1 /* CreatorViewController.swift in Sources */,
 				BE43DC931EF48042005470D1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,11 @@
 import UIKit
 import CoreData
 
-class MasterViewController: UITableViewController, NSFetchedResultsControllerDelegate {
+protocol CreateNoteDelegate {
+    func insertNewObject(name: String)
+}
+
+class MasterViewController: UITableViewController, NSFetchedResultsControllerDelegate, CreateNoteDelegate {
 
     var detailViewController: DetailViewController? = nil
     var managedObjectContext: NSManagedObjectContext? = nil
@@ -40,16 +44,17 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     
     @objc
     func pushCreatorView() {
-        
+        let popover = CreatorViewController()
+        popover.delegate = self
+        navigationController?.pushViewController(popover, animated: true)
     }
-
-    @objc
-    func insertNewObject(_ sender: Any) {
+    
+    func insertNewObject(name: String) {
         let context = self.fetchedResultsController.managedObjectContext
         let newProject = Project(context: context)
              
         // If appropriate, configure the new managed object.
-        newProject.name = ""
+        newProject.name = name
 
         // Save the context.
         do {
