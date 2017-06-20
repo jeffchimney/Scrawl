@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE027DD11EF9CD3600B8E49A /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE027DD01EF9CD3600B8E49A /* ProjectViewController.swift */; };
 		BE43DC8C1EF48042005470D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE43DC8B1EF48042005470D1 /* AppDelegate.swift */; };
 		BE43DC8F1EF48042005470D1 /* Scrawl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE43DC8D1EF48042005470D1 /* Scrawl.xcdatamodeld */; };
 		BE43DC911EF48042005470D1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE43DC901EF48042005470D1 /* MasterViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE027DD01EF9CD3600B8E49A /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
 		BE43DC881EF48042005470D1 /* Scrawl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrawl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE43DC8B1EF48042005470D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE43DC8E1EF48042005470D1 /* Scrawl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scrawl.xcdatamodel; sourceTree = "<group>"; };
@@ -107,14 +109,15 @@
 			children = (
 				BE43DCBE1EF484C7005470D1 /* TableViewCells */,
 				BE43DC8B1EF48042005470D1 /* AppDelegate.swift */,
+				BE43DCC11EF49ABD005470D1 /* CreatorViewController.swift */,
 				BE43DC901EF48042005470D1 /* MasterViewController.swift */,
+				BE027DD01EF9CD3600B8E49A /* ProjectViewController.swift */,
 				BE43DC921EF48042005470D1 /* DetailViewController.swift */,
 				BE43DC941EF48042005470D1 /* Main.storyboard */,
 				BE43DC971EF48042005470D1 /* Assets.xcassets */,
 				BE43DC991EF48042005470D1 /* LaunchScreen.storyboard */,
 				BE43DC9C1EF48042005470D1 /* Info.plist */,
 				BE43DC8D1EF48042005470D1 /* Scrawl.xcdatamodeld */,
-				BE43DCC11EF49ABD005470D1 /* CreatorViewController.swift */,
 			);
 			path = Scrawl;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				BE43DC911EF48042005470D1 /* MasterViewController.swift in Sources */,
 				BE43DCC01EF484DC005470D1 /* ProjectCell.swift in Sources */,
 				BE43DCC21EF49ABD005470D1 /* CreatorViewController.swift in Sources */,
+				BE027DD11EF9CD3600B8E49A /* ProjectViewController.swift in Sources */,
 				BE43DC931EF48042005470D1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +552,7 @@
 				BE43DCB71EF48042005470D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE43DCB81EF48042005470D1 /* Build configuration list for PBXNativeTarget "ScrawlTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +561,7 @@
 				BE43DCBA1EF48042005470D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE43DCBB1EF48042005470D1 /* Build configuration list for PBXNativeTarget "ScrawlUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +570,7 @@
 				BE43DCBD1EF48042005470D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

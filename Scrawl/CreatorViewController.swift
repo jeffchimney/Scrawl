@@ -12,6 +12,7 @@ import UIKit
 class CreatorViewController: UIViewController {
     
     var delegate: CreateNoteDelegate?
+    var parentProject: Project?
     
     @IBOutlet weak var titleTextField: UITextField!
     
@@ -27,6 +28,5 @@ class CreatorViewController: UIViewController {
     
     @IBAction func createButtonPressed(sender: Any) {
         delegate?.insertNewObject(name: titleTextField.text!)
-        navigationController?.popViewController(animated: true)
     }
 }

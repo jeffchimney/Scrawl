@@ -10,14 +10,13 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
-
+    @IBOutlet weak var detailNavigationItem: UINavigationItem!
+    
     func configureView() {
         // Update the user interface for the detail item.
         if let thisScrawl = scrawl {
-            if let label = detailDescriptionLabel {
-                label.text = thisScrawl.name!.description
+            if let navigationItem = detailNavigationItem {
+                navigationItem.title = thisScrawl.name!.description
             }
         }
     }
